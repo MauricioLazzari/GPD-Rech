@@ -80,7 +80,7 @@ public class TelaGenio extends javax.swing.JFrame {
        
         int ale = (int) (1 + Math.random() *(6 - 1));
         
-        String r = (palpite == ale)?"<html> Você acertou! <br>" + " O número é: " + ale + "</html>":"Errou";
+        String r = (palpite == ale)?"<html> <a color='red'> Você acertou! </a> <br>" + " O número é: " + ale + "</html>":"Errou, eu escolhi o número: " + ale;
         
         lblResultado.setText(r);
         
